@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>return_prime</title>
+</head>
+<body>
+    <h1> 소수 출력하기</h1>
+
+    <script>
+        numbers = {};
+        numbers.all = [];
+        numbers.prime = [];
+        numbers.isPrime = function (number) {
+            var isPrime = true;
+
+            if(number<2){
+                isPrime = false;
+            }
+            if(number ==2){
+                isPrime = true;
+            }
+            if (number%2 ==0){
+                isPrime = false;
+            }
+            sqrt_num = Math.round(Math.sqrt(number));
+            for(var i=3; i<sqrt_num; i+=2){
+                if(number % i === 0){
+                    isPrime = false;
+                    break
+                }
+            }
+            return isPrime
+        };
+        numbers.addPrime = function (number) {
+            for(var i=1; i<number; i++)
+            if(this.isPrime(i)){
+                this.prime.push(i);
+            }
+        };
+        numbers.getAllPrimes =function () {
+            result = "";
+            for(var i=0; i<this.prime.length; i++){
+                result +=i+1+"번째 소수: "+ this.prime[i]+"<br>\n";
+            }
+
+            return result
+        };
+        numbers.addALl = function (max_num) {
+            for(var i=2; i<= max_num; i++){
+                this.all.push(i);
+            }
+        };
+
+        numbers.addALl(10000);
+        numbers.addPrime(10000);
+        document.write(numbers.getAllPrimes());
+
+
+    </script>
+
+</body>
+</html>
