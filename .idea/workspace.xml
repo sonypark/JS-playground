@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b3fab1-45c6-420c-ac16-92bd618a2c63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gugudan/gugudan3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gugudan/gugudan2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gugudan/gugudan2.html" afterDir="false" />
     </list>
@@ -33,7 +34,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gugudan/gugudan4.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -46,6 +51,7 @@
       <list>
         <option value="$PROJECT_DIR$/gugudan/gugudan2.html" />
         <option value="$PROJECT_DIR$/gugudan/gugudan3.html" />
+        <option value="$PROJECT_DIR$/gugudan/gugudan4.html" />
       </list>
     </option>
   </component>
@@ -132,15 +138,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550644633963</updated>
-      <workItem from="1550644635199" duration="1624000" />
+      <workItem from="1550644635199" duration="2001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1624000" />
+    <option name="totallyTimeSpent" value="2001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -183,7 +190,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gugudan/gugudan4.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

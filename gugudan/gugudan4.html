@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gugudan3</title>
+</head>
+<body>
+    <h1> 조건문을 활용한 구구단 연습</h1>
+    출력할 단 수: <input type="text" id="num"> <br>
+    <button onclick="runGugudan()">확인</button>
+
+    <script>
+        function runGugudan() {
+            var input_num = document.getElementById("num").value;
+            var num = Number(input_num);
+
+            if(num<2 || num>9){
+                document.write("2이상, 9이하의 값만 입력할 수 있습니다.")
+            }
+            else {
+                for(var i = 1; i<10; i++){
+                    document.write(num +"*"+ i +" = " + num*i);
+                    document.write("<br>"); //new line
+                }
+                document.write("<br>"); //new line
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>
