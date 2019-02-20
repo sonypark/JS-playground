@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sum Input Numbers</title>
+</head>
+<body>
+    <script>
+
+        var input_nums = -1;
+        var sum = 0;
+        var count =0;
+        while (input_nums !=0){
+            input_nums = Number(prompt("숫자를 입력해주세요 (0 = 종료)")); //Number를 이용해 문자를 숫자로 만들어야 한다
+            sum += input_nums;
+            count ++;
+            console.log(count +"번 더한 값: "+ sum)
+        }
+        document.write("입력받은 숫자의 합: ",sum )
+
+    </script>
+
+</body>
+</html>

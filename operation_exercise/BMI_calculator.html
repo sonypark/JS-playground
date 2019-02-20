@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Culculator</title>
+</head>
+<body>
+    <script>
+        // BMI Calculation: [weight (kg) / height (cm) / height (cm)] x 10,000
+        // BMI Categories:
+        // Underweight = <18.5
+        // Normal weight = 18.5–24.9
+        // Overweight = 25–29.9
+        // Obesity = BMI of 30 or greate
+        var input_weight = prompt("몸무게를 입력하세요 (단위: kg)");
+        var weight = input_weight;
+        var input_height = prompt("키를 입력하세요 (단위: cm)");
+        var height = input_height;
+
+        var BMI_calculation = (weight / (height * height)) * 10000;
+
+        console.log("입력받은 몸무게는 " + weight + "입니다.");
+        console.log("입력받은 키는 " + height + "입니다.");
+        console.log("당신의 BMI는 " + BMI_calculation + "입니다.");
+
+        if (BMI_calculation < 18.5){
+            console.log("저체중 입니다")
+        }
+        if (18.5 <= BMI_calculation < 25){
+            console.log("정상 입니다")
+        }
+        if (25 <= BMI_calculation < 30){
+            console.log("과체중 입니다")
+        }
+        if(BMI_calculation > 30) {
+            console.log("비만 입니다")
+
+        }
+
+
+
+
+    </script>
+
+
+</body>
+</html>
