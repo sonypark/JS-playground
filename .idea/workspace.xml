@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4b3fab1-45c6-420c-ac16-92bd618a2c63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gugudan/gugudan3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gugudan/gugudan2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gugudan/gugudan2.html" afterDir="false" />
-    </list>
+    <list default="true" id="e4b3fab1-45c6-420c-ac16-92bd618a2c63" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JS-playgroud" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -32,11 +31,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gugudan/gugudan4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="437">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gugudan/return_prime.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gugudan/gugudan5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/operation_exercise/Prime-number.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -52,15 +78,17 @@
         <option value="$PROJECT_DIR$/gugudan/gugudan2.html" />
         <option value="$PROJECT_DIR$/gugudan/gugudan3.html" />
         <option value="$PROJECT_DIR$/gugudan/gugudan4.html" />
+        <option value="$PROJECT_DIR$/gugudan/return_prime.html" />
+        <option value="$PROJECT_DIR$/gugudan/gugudan5.html" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -79,6 +107,11 @@
               <item name="JS-playgroud" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS-playgroud" type="462c0819:PsiDirectoryNode" />
               <item name="gugudan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS-playgroud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-playgroud" type="462c0819:PsiDirectoryNode" />
+              <item name="operation_exercise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -110,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.gugudan4.html">
+  <component name="RunManager" selected="JavaScript Debug.gugudan5.html">
     <configuration name="gugudan2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JS-playgroud/gugudan/gugudan2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -120,8 +153,16 @@
     <configuration name="gugudan4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JS-playgroud/gugudan/gugudan4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="gugudan5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JS-playgroud/gugudan/gugudan5.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="return_prime.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JS-playgroud/gugudan/return_prime.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.gugudan5.html" />
+        <item itemvalue="JavaScript Debug.return_prime.html" />
         <item itemvalue="JavaScript Debug.gugudan4.html" />
         <item itemvalue="JavaScript Debug.gugudan3.html" />
         <item itemvalue="JavaScript Debug.gugudan2.html" />
@@ -138,29 +179,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550644633963</updated>
-      <workItem from="1550644635199" duration="2001000" />
+      <workItem from="1550644635199" duration="9945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2001000" />
+    <option name="totallyTimeSpent" value="9945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Favorites" sideWeight="0.50065017" side_tool="true" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32899868" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32899868" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39921975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -189,10 +230,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/operation_exercise/Prime-number.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gugudan/gugudan4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="437">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gugudan/return_prime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gugudan/gugudan5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
