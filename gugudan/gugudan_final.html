@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gugudan_final</title>
+</head>
+<body>
+    <h1> 팔칠단 구현하기</h1>
+
+    출력할 단 수 입력(예: 7,8) <input type="text" id="num">
+    <button onclick="main()"> 확인 </button>
+
+    <script>
+        custom_gugudan = {};
+        custom_gugudan.result =[];
+        custom_gugudan.current = 0; // 현재 단 수
+        custom_gugudan.first_num = 0; // 몇 단 까지 계산할지
+        custom_gugudan.second_num = 0; // 단의 몇번째 수까지 곱할지
+        custom_gugudan.calculate = function (n, s_num) {
+            this.current = n;
+            this.second_num = s_num;
+                for(var i = 0; i<=this.second_num; i++){
+                    this.result[i] = (n*(i+1));
+                }
+        };
+        custom_gugudan.print = function () {
+            document.write("<h2>"+ this.current +"단 </h2>");
+            for(var i = 0; i<this.second_num; i++){
+                document.write(this.current +"*" +(i+1) + "=" + this.result[i] +"<br>")
+            }
+        };
+
+        function main() {
+            var input_num = document.getElementById("num").value;
+            var split_num = input_num.split(",");
+            var first_num = split_num[0];
+            var second_num = split_num[1];
+            for(var n = 2; n <= first_num; n++){
+                custom_gugudan.calculate(n, second_num);
+                custom_gugudan.print()
+            }
+        }
+        main();
+
+
+    </script>
+
+</body>
+</html>
