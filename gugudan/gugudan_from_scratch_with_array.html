@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gugudan_from_scratch_with_array</title>
+</head>
+<body>
+    <h1> 백지 상태로 구구단 구현하기 (배열 이용) </h1>
+
+<script>
+    // 전역 변수를 쓰는 건 좋지 않다.
+    var result = [];
+
+    //calcuate
+    for(var n = 2; n < 10; n++){
+        document.write("<h2>" +n + "단 </h2>");
+        for(var i = 0; i<9; i++ ){
+            result[i] = n*(i+1);
+            // print result
+            document.write(n + " * "+ (i+1) + "= " +result[i] +"<br>");
+        }
+    }
+
+
+
+</script>
+
+</body>
+</html>
