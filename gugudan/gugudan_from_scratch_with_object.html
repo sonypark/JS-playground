@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gugudan_from_scratch_with_function</title>
+</head>
+<body>
+    <h1> 백지 상태로 구구단 구현하기 (객체 이용)</h1>
+
+<script>
+
+    gugudan = {};
+    gugudan.result =[];
+    gugudan.current = 0; // 현재 단 수
+    gugudan.calculate = function (n) {
+        gugudan.current = n;
+        for(var i = 0; i <9; i++){
+            this.result[i] = this.current * (i+1);
+        }
+    };
+    gugudan.print_result = function () {
+        document.write("<h2>"+ this.current +"단 </h2>")
+        for(var i = 0; i<9; i++){
+            document.write( this.current +" * "+ (i+1) +" = "+this.result[i] + "<br>");
+        }
+
+    };
+
+    function main() {
+        for (var n = 2; n < 10; n++){
+            gugudan.calculate(n);
+            gugudan.print_result();
+        }
+
+    }
+
+    main();
+
+
+</script>
+
+</body>
+</html>
