@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gugudan_from_scratch_with_function</title>
+</head>
+<body>
+    <h1> 백지 상태로 구구단 구현하기 (팔칠단)</h1>
+
+    단 수를 입력하세요(ex. 7,8) <input type="text" id="num">
+    <button onclick="main()"> 확인 </button>
+
+<script>
+    custum_gugudan = {};
+    custum_gugudan.current = 0;
+    custum_gugudan.result = [];
+    custum_gugudan.second_num = 0;
+    custum_gugudan.calculate = function (n, second_num) {
+        this.current = n;
+        this.second_num =second_num;
+        for(var i = 0; i < this.second_num; i++){
+            this.result[i] = this.current * (i+1);
+        }};
+    custum_gugudan.print_result = function () {
+        document.write("<h2>"+ this.current +"단 </h2>");
+        for(var i = 0; i<this.second_num; i++){
+            document.write(this.current +" * "+ (i+1) + " = " + this.result[i] +"<br>")
+        }
+    };
+
+    function main() {
+        var input_num = document.getElementById("num").value;
+        split_num =  input_num.split(",");
+        var first_num = split_num[0];
+        var second_num = split_num[1];
+
+        for(var n = 2; n<=first_num; n++){
+            custum_gugudan.calculate(n, second_num);
+            custum_gugudan.print_result();
+        }
+    }
+    main();
+
+
+</script>
+
+</body>
+</html>
