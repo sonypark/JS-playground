@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator1</title>
+</head>
+<body>
+    <h1> 사칙연산 구현(조건문)</h1>
+    계산할 값을 입력하시오.(연산자: +, -, *, /) <br>
+    <br>
+    숫자 <input type="text" id="n1"> <br>
+    연산자 <input type="text" id="op"> <br>
+    숫자 <input type="text" id="n2">
+    <button onclick="main()">확인</button>
+
+    <br>
+    <br>
+    <div id="output"> 결과값 </div>
+    <script>
+
+        function main() {
+            var num1 = Number(document.getElementById('n1').value);
+            var num2 = Number(document.getElementById('n2').value);
+            var op = document.getElementById('op').value;
+
+            var str ="";
+
+            if (op === '+'){
+                str += "더하기: " + (num1 + num2) + "<br>";
+            } else if(op ==='-'){
+                str += "빼기: " + (num1 - num2) + "<br>";
+            } else if(op ==='*'){
+                str += "곱하기: " + (num1 * num2) + "<br>";
+            } else if(op ==='/'){
+                str += "나누기: " + (num1 / num2) + "<br>";
+            }
+            var out = document.getElementById("output");
+            out.innerHTML = str;
+
+        }
+
+        main()
+        
+    </script>
+
+
+</body>
+</html>
