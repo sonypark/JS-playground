@@ -8,9 +8,9 @@
     <h1> 사칙연산 구현(조건문)</h1>
     계산할 값을 입력하시오.(연산자: +, -, *, /) <br>
     <br>
-    숫자 <input type="text" id="n1"> <br>
+    첫번째 수 <input type="text" id="n1"> <br>
     연산자 <input type="text" id="op"> <br>
-    숫자 <input type="text" id="n2">
+    두번째 수 <input type="text" id="n2">
     <button onclick="main()">확인</button>
 
     <br>
@@ -33,6 +33,8 @@
                 str += "곱하기: " + (num1 * num2) + "<br>";
             } else if(op ==='/'){
                 str += "나누기: " + (num1 / num2) + "<br>";
+            } else {
+                str +="연산자에는 사칙연자만 입력해주세요."
             }
             var out = document.getElementById("output");
             out.innerHTML = str;
