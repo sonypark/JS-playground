@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator1</title>
+</head>
+<body>
+    <h1> 사칙연산 구현(함수)</h1>
+
+    <br>
+    <br>
+    <div id="output"> 결과값 </div>
+    <script>
+        
+        function getFistValue() {
+            var n1 = prompt("첫번째 값을 입력하세요");
+            num1 = Number(n1);
+            return num1;
+        }
+
+        var n  = 2;
+        function getSecondValue() {
+            while (true){
+                var n2 = prompt(n + "번째 숫자를 입력하세요");
+                if(Number(n2)){
+                    n2 = Number(n2);
+                    n++;
+                    break;
+                } else {
+                    alert( "올바른 숫자가 아닙니다.");
+                }
+            }
+            return n2;
+        }
+        
+        function getOperator() {
+            while (true){
+                var op = prompt("연산자를 입력하세요(연산 종료하려면 'q' 입력)", "+, -, *, /");
+                if(op === '+' || op === '-' || op === '*' || op === '/' || op === 'q'){
+                    break
+                } else {
+                    alert("올바른 연산자를 입력해주세요")
+                }
+            }
+            return op
+        }
+
+        function calculate(result, op, n2) {
+            if(op === '+'){
+                result += n2;
+            }else if(op ==='-'){
+                result -= n2;
+            } else if(op ==='*'){
+                result *= n2;
+            } else if(op ==='/'){
+                result /= n2;
+            } else {
+                result = "올바른 연산자가 아닙니다."
+            }
+            return result;
+        }
+
+        function print(result) {
+            var out = document.getElementById("output");
+            out.innerHTML = "최종 결과값: "+ result;
+        }
+
+        function main() {
+            result = getFistValue();
+
+            while (true){
+                op = getOperator();
+                if(op === 'q') {
+                    break
+                }
+                n2 = getSecondValue();
+                result = calculate(result, op, n2);
+            }
+            print(result);
+        }
+        main();
+        
+    </script>
+
+
+</body>
+</html>
