@@ -14,39 +14,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/culculator.html">
+        <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gugudan/gugudan_final.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gugudan/gugudan_from_scratch_with_object.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="502">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculator/DOM_addButton.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -54,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -81,6 +59,8 @@
         <option value="$PROJECT_DIR$/calculator/DOM_addButton.html" />
         <option value="$PROJECT_DIR$/calculator/add_button.js" />
         <option value="$PROJECT_DIR$/calculator/culculator.html" />
+        <option value="$PROJECT_DIR$/calculator/calc-gui.html" />
+        <option value="$PROJECT_DIR$/calculator/calc-gui.js" />
       </list>
     </option>
   </component>
@@ -130,6 +110,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/calculator" />
       <recent name="$PROJECT_DIR$/gugudan" />
     </key>
   </component>
@@ -145,8 +126,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.culculator.html">
+  <component name="RunManager" selected="JavaScript Debug.calc-gui.html">
     <configuration name="DOM_addButton.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JS-playgroud/calculator/DOM_addButton.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="calc-gui.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/calculator/calc-gui.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="culculator.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/calculator/culculator.html" useBuiltInWebServerPort="true">
@@ -155,19 +139,16 @@
     <configuration name="gugudan_from_scratch_with_custumazation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/gugudan/gugudan_from_scratch_with_custumazation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="gugudan_from_scratch_with_function.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/gugudan/gugudan_from_scratch_with_function.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="gugudan_from_scratch_with_object.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/gugudan/gugudan_from_scratch_with_object.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.calc-gui.html" />
         <item itemvalue="JavaScript Debug.culculator.html" />
         <item itemvalue="JavaScript Debug.DOM_addButton.html" />
         <item itemvalue="JavaScript Debug.gugudan_from_scratch_with_custumazation.html" />
         <item itemvalue="JavaScript Debug.gugudan_from_scratch_with_object.html" />
-        <item itemvalue="JavaScript Debug.gugudan_from_scratch_with_function.html" />
       </list>
     </recent_temporary>
   </component>
@@ -199,12 +180,12 @@
       <workItem from="1551617267737" duration="598000" />
       <workItem from="1551673849386" duration="568000" />
       <workItem from="1551863838373" duration="2265000" />
-      <workItem from="1552298179303" duration="2975000" />
+      <workItem from="1552298179303" duration="4046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33760000" />
+    <option name="totallyTimeSpent" value="34831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -325,6 +306,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/culculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gugudan/gugudan_final.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -339,19 +327,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/culculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator/DOM_addButton.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
