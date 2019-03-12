@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator1</title>
+</head>
+<body>
+    <h1> 사칙연산 구현(반복문)</h1>
+
+    <br>
+    <br>
+    <div id="output"> 결과값 </div>
+    <script>
+
+        function main()
+        {   var n1 = prompt("첫번째 값을 입력하세요");
+            num1 = Number(n1);
+
+            var result = num1;
+
+            while (true){
+                var op = prompt("연산자를 입력하세요(연산 종료하려면 'q' 입력)", "+, -, *, /");
+                if(op === 'q') {
+                    break
+                }
+                var n2 = prompt("숫자를 입력하세요");
+                if(Number(n2)){
+                    n2 = Number(n2);
+                } else {
+                    result = "올바른 숫자가 아닙니다.";
+                    break;
+                }
+
+                if(op === '+'){
+                    result += n2;
+                }else if(op ==='-'){
+                    result -= n2;
+                } else if(op ==='*'){
+                    result *= n2;
+                } else if(op ==='/'){
+                    result /= n2;
+                } else {
+                    result = "올바른 연산자가 아닙니다."
+                }
+
+            }
+            var out = document.getElementById("output");
+            out.innerHTML = "최종 결과값: "+ result;
+
+        }
+
+        main();
+        
+    </script>
+
+
+</body>
+</html>
