@@ -3,7 +3,7 @@ input.getInput = function () {
     return this.array.join("")
 };
 
-var output ={};
+var output = {};
 output.text = document.getElementById('output');
 
 var clickNumbers = function (event) {
@@ -15,14 +15,8 @@ var clickNumbers = function (event) {
             input.array.pop();
             break;
         case '+': // 연산자는 양 옆에 공백 추가
-            input.array.push(' ' + str + ' ');
-            break;
         case '-':
-            input.array.push(' ' + str + ' ');
-            break;
         case '*':
-            input.array.push(' ' + str + ' ');
-            break;
         case '/':
             input.array.push(' ' + str + ' ');
             break;

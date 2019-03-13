@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b3fab1-45c6-420c-ac16-92bd618a2c63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/calculator/calc-gui.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calc-gui.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/calc-gui.js" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calc-gui.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="368">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="368">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -72,8 +71,8 @@
         <option value="$PROJECT_DIR$/calculator/DOM_addButton.html" />
         <option value="$PROJECT_DIR$/calculator/add_button.js" />
         <option value="$PROJECT_DIR$/calculator/culculator.html" />
-        <option value="$PROJECT_DIR$/calculator/calc-gui.js" />
         <option value="$PROJECT_DIR$/calculator/calc-gui.html" />
+        <option value="$PROJECT_DIR$/calculator/calc-gui.js" />
       </list>
     </option>
   </component>
@@ -193,12 +192,12 @@
       <workItem from="1551617267737" duration="598000" />
       <workItem from="1551673849386" duration="568000" />
       <workItem from="1551863838373" duration="2265000" />
-      <workItem from="1552298179303" duration="8125000" />
+      <workItem from="1552298179303" duration="8628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38910000" />
+    <option name="totallyTimeSpent" value="39413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -347,17 +346,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
+    <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="368">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
+    <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="368">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>
