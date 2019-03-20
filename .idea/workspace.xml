@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b3fab1-45c6-420c-ac16-92bd618a2c63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/calc-gui.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calc-gui.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/calc-gui.js" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calc-gui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/culculator_in_a_line.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/culculator_in_a_line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_puzzle/num_puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/number_puzzle/num_puzzle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_puzzle/num_puzzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/number_puzzle/num_puzzle.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +23,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="410">
+              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-485">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
+        <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator/culculator_in_a_line.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1748">
+              <caret line="76" column="33" selection-start-line="71" selection-start-column="12" selection-end-line="76" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -71,8 +103,12 @@
         <option value="$PROJECT_DIR$/calculator/DOM_addButton.html" />
         <option value="$PROJECT_DIR$/calculator/add_button.js" />
         <option value="$PROJECT_DIR$/calculator/culculator.html" />
-        <option value="$PROJECT_DIR$/calculator/calc-gui.html" />
         <option value="$PROJECT_DIR$/calculator/calc-gui.js" />
+        <option value="$PROJECT_DIR$/calculator/calc-gui.html" />
+        <option value="$PROJECT_DIR$/calculator/calc-gui2.js" />
+        <option value="$PROJECT_DIR$/number_puzzle/fibo.html" />
+        <option value="$PROJECT_DIR$/number_puzzle/num_puzzle.html" />
+        <option value="$PROJECT_DIR$/number_puzzle/num_puzzle.js" />
       </list>
     </option>
   </component>
@@ -99,12 +135,12 @@
             <path>
               <item name="JS-playgroud" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS-playgroud" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="gugudan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JS-playgroud" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS-playgroud" type="462c0819:PsiDirectoryNode" />
-              <item name="gugudan" type="462c0819:PsiDirectoryNode" />
+              <item name="number_puzzle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.calc-gui.html">
+  <component name="RunManager" selected="JavaScript Debug.num_puzzle.html">
     <configuration name="DOM_addButton.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JS-playgroud/calculator/DOM_addButton.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -148,19 +184,19 @@
     <configuration name="culculator.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/calculator/culculator.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="gugudan_from_scratch_with_custumazation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/gugudan/gugudan_from_scratch_with_custumazation.html" useBuiltInWebServerPort="true">
+    <configuration name="fibo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/fibo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="gugudan_from_scratch_with_object.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/gugudan/gugudan_from_scratch_with_object.html" useBuiltInWebServerPort="true">
+    <configuration name="num_puzzle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.num_puzzle.html" />
+        <item itemvalue="JavaScript Debug.fibo.html" />
         <item itemvalue="JavaScript Debug.calc-gui.html" />
         <item itemvalue="JavaScript Debug.culculator.html" />
         <item itemvalue="JavaScript Debug.DOM_addButton.html" />
-        <item itemvalue="JavaScript Debug.gugudan_from_scratch_with_custumazation.html" />
-        <item itemvalue="JavaScript Debug.gugudan_from_scratch_with_object.html" />
       </list>
     </recent_temporary>
   </component>
@@ -192,18 +228,26 @@
       <workItem from="1551617267737" duration="598000" />
       <workItem from="1551673849386" duration="568000" />
       <workItem from="1551863838373" duration="2265000" />
-      <workItem from="1552298179303" duration="8898000" />
+      <workItem from="1552298179303" duration="15295000" />
+      <workItem from="1552559114939" duration="18000" />
+      <workItem from="1552617326809" duration="228000" />
+      <workItem from="1552630801881" duration="893000" />
+      <workItem from="1552664754158" duration="278000" />
+      <workItem from="1552665850529" duration="21000" />
+      <workItem from="1552707853127" duration="660000" />
+      <workItem from="1552713974742" duration="266000" />
+      <workItem from="1553007898987" duration="10866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39683000" />
+    <option name="totallyTimeSpent" value="59310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.3273639" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.3696275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50065017" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,17 +390,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/calc-gui2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/culculator_in_a_line.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="76" column="33" selection-start-line="71" selection-start-column="12" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number_puzzle/fibo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="410">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="-485">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
