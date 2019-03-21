@@ -3,7 +3,7 @@ let word1 = document.getElementById('word1'); // target letters
 const word2 = document.getElementById('word2'); // buttons
 const check = document.getElementById('check'); // check answer
 let progress = document.getElementById('progress'); // progress check
-
+let time = document.getElementById('time'); // time check
 
 // game objects
 var game = {};
@@ -11,24 +11,32 @@ game.btns = []; // 버튼 담을 배열
 game.maxPlay = 3;
 game.current = 0;
 
+game.startTime = Date.now();
+
 game.checkAnswer = function () {
     return this.letters.join('') === this.target_word
 };
 
 game.progress = function () {
-    if(this.checkAnswer()){
+    if (this.checkAnswer()) {
         this.current++;
         this.removeButtons();
         this.init();
+        this.shuffle();
         var str = "";
-        for (let i = 0; i < this.current; i++){
+        for (let i = 0; i < this.current; i++) {
             str += "0";
         }
         progress.innerHTML = str;
     }
 
-    if(this.current === this.maxPlay){
-        alert("Good job! Thanks for playing")
+    if (this.current === this.maxPlay) {
+        const sec = (Date.now() - this.startTime) / 1000;
+        alert("Good job! Your Record: " + sec + " sec");
+        clearInterval(x);
+        this.current = 0;
+        progress.innerHTML = '';
+        time.innerHTML = '0';
     }
 
 };
@@ -53,8 +61,8 @@ game.addButtons = function () {
 };
 
 
-game.removeButtons = function(){
-    for(let i = 0; i < this.btns.length; i++){
+game.removeButtons = function () {
+    for (let i = 0; i < this.btns.length; i++) {
         word2.removeChild(this.btns[i])
     }
     this.btns = [];
@@ -131,3 +139,9 @@ game.init = function () {
     this.shuffle();
 };
 game.init();
+
+var updateTime = function () {
+    var now = (Date.now() - game.startTime) / 1000;
+    time.innerHTML = now + ' s';
+};
+var x = setInterval(updateTime, 50);
