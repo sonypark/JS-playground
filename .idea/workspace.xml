@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b3fab1-45c6-420c-ac16-92bd618a2c63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calc-gui.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calc-gui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calc-gui.js" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calc-gui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/culculator_in_a_line.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/culculator_in_a_line.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/number_puzzle/num_puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/number_puzzle/num_puzzle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/number_puzzle/num_puzzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/number_puzzle/num_puzzle.js" afterDir="false" />
     </list>
@@ -21,28 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-485">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -50,17 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/culculator_in_a_line.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="76" column="33" selection-start-line="71" selection-start-column="12" selection-end-line="76" selection-end-column="33" />
+            <state relative-caret-position="345">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -79,6 +48,9 @@
     <findStrings>
       <find>click</find>
       <find>clickOps</find>
+      <find>target</find>
+      <find>check_word</find>
+      <find>shuffle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,7 +87,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -155,6 +127,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -175,9 +148,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.num_puzzle.html">
-    <configuration name="DOM_addButton.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JS-playgroud/calculator/DOM_addButton.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="calc-gui.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/calculator/calc-gui.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -190,13 +160,16 @@
     <configuration name="num_puzzle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="num_puzzle.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/number_puzzle/num_puzzle.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.num_puzzle.html" />
+        <item itemvalue="Node.js.num_puzzle.js" />
         <item itemvalue="JavaScript Debug.fibo.html" />
         <item itemvalue="JavaScript Debug.calc-gui.html" />
         <item itemvalue="JavaScript Debug.culculator.html" />
-        <item itemvalue="JavaScript Debug.DOM_addButton.html" />
       </list>
     </recent_temporary>
   </component>
@@ -236,23 +209,23 @@
       <workItem from="1552665850529" duration="21000" />
       <workItem from="1552707853127" duration="660000" />
       <workItem from="1552713974742" duration="266000" />
-      <workItem from="1553007898987" duration="10866000" />
+      <workItem from="1553007898987" duration="18203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59310000" />
+    <option name="totallyTimeSpent" value="66647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.3696275" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.3696275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50065017" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32769832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899868" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39921975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,6 +384,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculator/calc-gui.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -418,24 +398,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/calc-gui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
