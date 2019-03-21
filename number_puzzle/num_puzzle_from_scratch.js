@@ -21,8 +21,8 @@ game.progress = function(){
       let str = '';
       for(let i = 0; i < this.current; i++){
           str += 'O';
-          progress.innerHTML = str;
       }
+      progress.innerHTML = str;
   }
 
   if(this.current === this.maxPlay){
