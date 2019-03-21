@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1817">
-              <caret line="79" column="18" lean-forward="true" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -43,17 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/number_puzzle/puzzle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="115">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/number_puzzle/puzzle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
             </state>
           </provider>
         </entry>
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="596">
+              <caret line="94" column="2" lean-forward="true" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -126,11 +126,11 @@
         <option value="$PROJECT_DIR$/calculator/calc-gui2.js" />
         <option value="$PROJECT_DIR$/number_puzzle/fibo.html" />
         <option value="$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch.html" />
-        <option value="$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch.js" />
         <option value="$PROJECT_DIR$/number_puzzle/num_puzzle.html" />
         <option value="$PROJECT_DIR$/number_puzzle/num_puzzle.js" />
-        <option value="$PROJECT_DIR$/number_puzzle/puzzle.js" />
+        <option value="$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch.js" />
         <option value="$PROJECT_DIR$/number_puzzle/puzzle.html" />
+        <option value="$PROJECT_DIR$/number_puzzle/puzzle.js" />
       </list>
     </option>
   </component>
@@ -197,17 +197,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.num_puzzle_from_scratch.html">
+  <component name="RunManager" selected="JavaScript Debug.num_puzzle_from_scrratch2.html">
     <configuration name="fibo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/fibo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="num_puzzle_from_scratch.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle_from_scratch.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="num_puzzle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle.html" useBuiltInWebServerPort="true">
+    <configuration name="num_puzzle_from_scrratch2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle_from_scrratch2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="puzzle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/puzzle.html" useBuiltInWebServerPort="true">
+    <configuration name="num_puzzle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="num_puzzle.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/number_puzzle/num_puzzle.js" working-dir="$PROJECT_DIR$">
@@ -215,8 +215,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.num_puzzle_from_scrratch2.html" />
         <item itemvalue="JavaScript Debug.num_puzzle_from_scratch.html" />
-        <item itemvalue="JavaScript Debug.puzzle.html" />
         <item itemvalue="JavaScript Debug.num_puzzle.html" />
         <item itemvalue="Node.js.num_puzzle.js" />
         <item itemvalue="JavaScript Debug.fibo.html" />
@@ -259,18 +259,17 @@
       <workItem from="1552665850529" duration="21000" />
       <workItem from="1552707853127" duration="660000" />
       <workItem from="1552713974742" duration="266000" />
-      <workItem from="1553007898987" duration="30565000" />
+      <workItem from="1553007898987" duration="31387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79009000" />
+    <option name="totallyTimeSpent" value="79831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.3696275" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.3696275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50065017" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -448,20 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/number_puzzle/puzzle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -469,24 +454,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.js">
+    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1817">
-          <caret line="79" column="18" lean-forward="true" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+        <state relative-caret-position="596">
+          <caret line="94" column="2" lean-forward="true" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch.js">
+    <entry file="file://$PROJECT_DIR$/number_puzzle/puzzle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="115">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/number_puzzle/puzzle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="525">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
