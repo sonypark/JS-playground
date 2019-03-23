@@ -12,29 +12,29 @@ game.letters = [];
 game.current = 0;
 game.maxPlay = 3;
 
-game.progress = function(){
-  if(this.letters.join('') === word1.innerText){
-      this.current++;
-      this.removeButtons();
-      this.init();
-      this.shuffle();
-      let str = '';
-      for(let i = 0; i < this.current; i++){
-          str += 'O';
-      }
-      progress.innerHTML = str;
-  }
+game.progress = function () {
+    if (this.letters.join('') === word1.innerText) {
+        this.current++;
+        this.removeButtons();
+        this.init();
+        this.shuffle();
+        let str = '';
+        for (let i = 0; i < this.current; i++) {
+            str += 'O';
+        }
+        progress.innerHTML = str;
+    }
 
-  if(this.current === this.maxPlay){
-      alert('Good job, Thanks for playing');
-      const t2 = Date.now();
-      this.calTime(t2);
-      this.current = 0;
-      progress.innerHTML = ''
-  }
+    if (this.current === this.maxPlay) {
+        alert('Good job, Thanks for playing');
+        const t2 = Date.now();
+        this.calTime(t2);
+        this.current = 0;
+        progress.innerHTML = ''
+    }
 };
 
-game.getRandomWord = function(){
+game.getRandomWord = function () {
     words = 'HELLO,SEOUL,NEWYORK,SYDNEY,LONDON,TOKYO,SINGAPORE,CHICAGO,DANANG,HAWAI'.split(',');
     rand_idx = Math.floor(Math.random() * words.length);
     this.target_word = words[rand_idx];
@@ -51,8 +51,8 @@ game.addButtons = function () {
     }
 };
 
-game.removeButtons = function() {
-    for(let i = 0; i < this.btns.length; i++){
+game.removeButtons = function () {
+    for (let i = 0; i < this.btns.length; i++) {
         word2.removeChild(this.btns[i])
     }
     this.btns = [];
@@ -66,8 +66,8 @@ game.copyBtnText = function () {
 
 // initiate
 game.init = function () {
-  this.getRandomWord();
-  this.addButtons();
+    this.getRandomWord();
+    this.addButtons();
 };
 game.init();
 
@@ -95,21 +95,22 @@ var shiftToLeft = function () {
 };
 
 game.checkAnswer = function () {
-  if(this.letters.join('') === word1.innerText){
-    check.innerHTML = '일치합니다.'
-  } else{
-      check.innerHTML = '일치하지 않습니다.'
-  }
+    if (this.letters.join('') === word1.innerText) {
+        check.innerHTML = '일치합니다.'
+    } else {
+        check.innerHTML = '일치하지 않습니다.'
+    }
 };
 
 game.shuffle = function () {
-  const toggle = Math.floor(Math.random() * 2) === 0;
-    if (toggle){
+    const toggle = Math.floor(Math.random() * 2) === 0;
+    if (toggle) {
         swap() // 50% 확률로 뒤집기
     }
 
-    const n = Math.floor(Math.random() * (this.letters.length -1));
-    for(let i = 0; i < n; i++){
+    const rmax = Math.max(this.letters.length - 2, 1);
+    const n = Math.floor(Math.random() * rmax) + 1;
+    for (let i = 0; i < n; i++) {
         shiftToRight() // n회 오른쪽으로 밀기
     }
 };

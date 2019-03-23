@@ -133,7 +133,8 @@ game.shuffle = function () {
         swap();
     }
 
-    const n = Math.floor(Math.random() * (this.btns.length - 1));
+    const rmax = Math.max(this.letters.length - 2, 1);
+    const n = Math.floor(Math.random() * rmax) + 1;
     for (let i = 0; i < n; i++) {
         shiftToRight();
     }

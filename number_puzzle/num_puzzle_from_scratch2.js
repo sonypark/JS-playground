@@ -112,7 +112,8 @@ game.shuffle = function () {
         swap()
     }
     // 글자 길이 내의 랜덤확률로 오른쪽 밀기
-    const n = Math.floor(Math.random() * (this.letters.length - 1));
+    const rmax = Math.max(this.letters.length - 2, 1);
+    const n = Math.floor(Math.random() * rmax) + 1;
     for (let i = 0; i < n; i++) {
         shiftToRight()
     }
