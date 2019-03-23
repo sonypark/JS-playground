@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b3fab1-45c6-420c-ac16-92bd618a2c63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_puzzle/num_puzzle_from_scrratch2.html" beforeDir="false" afterPath="$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_puzzle/num_puzzle_from_scrratch2.js" beforeDir="false" afterPath="$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scrratch2.js">
+        <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1982">
-              <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="84" />
+              <caret line="16" column="84" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -63,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="143" column="23" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
+            <state relative-caret-position="506">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -151,7 +152,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -207,13 +208,13 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.num_puzzle_from_scratch3.html">
+    <configuration name="num_puzzle_from_scratch2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle_from_scratch2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="num_puzzle_from_scratch3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle_from_scratch3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="num_puzzle_from_scratch.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle_from_scratch.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="num_puzzle_from_scrratch2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle_from_scrratch2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="num_puzzle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-playgroud/number_puzzle/num_puzzle.html" useBuiltInWebServerPort="true">
@@ -225,7 +226,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.num_puzzle_from_scratch3.html" />
-        <item itemvalue="JavaScript Debug.num_puzzle_from_scrratch2.html" />
+        <item itemvalue="JavaScript Debug.num_puzzle_from_scratch2.html" />
         <item itemvalue="JavaScript Debug.num_puzzle_from_scratch.html" />
         <item itemvalue="JavaScript Debug.num_puzzle.html" />
         <item itemvalue="Node.js.num_puzzle.js" />
@@ -271,15 +272,15 @@
       <workItem from="1553007898987" duration="31387000" />
       <workItem from="1553167535171" duration="220000" />
       <workItem from="1553230794790" duration="404000" />
-      <workItem from="1553327823309" duration="5707000" />
+      <workItem from="1553327823309" duration="5941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86162000" />
+    <option name="totallyTimeSpent" value="86396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.38681948" />
@@ -481,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scrratch2.html">
+    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
@@ -502,17 +503,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scrratch2.js">
+    <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1982">
-          <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="84" />
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/number_puzzle/num_puzzle_from_scratch3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="143" column="23" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
+        <state relative-caret-position="506">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
