@@ -1,114 +1,115 @@
-var input = {'array': []};
+// 입력 담당 객체
+var input = {};
+input.array = [];
 
-// 입력 배열을 초기화
-input.removeALl = function(value){
-    this.array = [];
-    this.array.push(value);
-};
-
-// 수식 전체를 읽어옴
+// 입력된 수식 반환
 input.getInput = function () {
-    return this.array.join("")
+    return this.array.join('')
 };
 
-// 수식이 비었는지 검사
-input.isEmpty = function() {
-    return this.array.length < 1
-};
-
-// 계산 실행 전 준비 단계 (getValue 전 호출)
-input.prepareCalculate = function(){
-    this.array = this.getInput().split(" ");
-};
-
-// 수식에서 값을 읽어옴
+// 숫자 가져오기
 input.getValue = function () {
-    var n = this.array.shift();
-    if(Number(n)){
-        num = Number(n);
-        return num;
-    } else {
-        alert("숫자가 아닙니다.")
-    }
+  const n = this.array.shift();
+  if(Number(n)){
+      return Number(n)
+  } else {
+      alert('숫자가 아닙니다.')
+  }
 };
 
-// 수식에서 연산자를 읽어옴
+// 연산자 가져오기
 input.getOperator = function () {
-    var op = this.array.shift();
-    if(op === '+' || op === '-' || op === '*' || op === '/'){
-        return op;
+    const op = this.array.shift();
+    if (op === '+' ||  op === '-' ||  op === '*' ||  op === '/'){
+        return op
     } else {
-        alert("올바른 연산자를 입력해주세요")
+        alert('연산자가 아닙니다.')
     }
 };
 
-// 출력 담당
+// 계산 준비. 연산자 양옆 공백 없애기
+input.prepareCalculate = function () {
+  return this.array = this.getInput().split(' ');
+};
+
+// 입력 배열 비었는지 확인
+input.isEmpty = function () {
+  return this.array.length < 1
+};
+
+// 계산 후 인풋값 지우기
+input.removeALl = function (result_value) {
+    // this.array = [];
+    this.array.push(result_value)
+};
+
+
+// 출력 담당 객체
 var output = {};
 output.text = document.getElementById('output');
 
-// 계산 결과 출력
-output.print = function (str) {
-    this.text.innerHTML = str;
+// 계산 결과값 출력
+output.printResult = function (result) {
+  return this.text.innerHTML = result;
 };
 
-// 수식 출력
-output.display = function () {
-    this.text.innerHTML =  input.getInput();
+// 입력한 수식 출력
+output.displayInputValue = function () {
+    return this.text.innerHTML = input.getInput();
 };
 
-// 계산기 버튼 핸들러
+// 버튼 핸들러
 var clickNumbers = function (event) {
-    target_word = event.target.innerHTML;
-    console.log(str);
+  const str = event.target.innerHTML;
 
-    if(str === 'del'){
-        input.array.pop();
-    } else if(str === '+' || str === '-' || str === '*' || str === '/'){
-        // 연산자일 때 양 옆에 공백 추가
-        input.array.push(' ' + str + ' ');
-    } else{
-        // 숫자일 때는 공백없이 숫자만 추가
-        input.array.push(str);
-    }
+  if( str === 'del'){
+      input.array.pop();
+  }else if ( str === '+' ||  str === '-' ||  str === '*' ||  str === '/'){
+      input.array.push(" " + str + " ");
+  } else{
+      input.array.push(str)
+  }
 
-    if(input.isEmpty()){ // 아무것도 없을 때 0 으로 표시
-        output.text.innerText = '0'
-    } else {
-        output.display();
-    }
+  if(input.isEmpty()){
+      output.text.innerHTML = "0";
+  } else {
+      output.displayInputValue();
+  }
+
 };
 
-// 게산 담당
-var calculator = {};
-calculator.calculate = function (result, op, n2) {
-        if(op === '+'){
-            result += n2;
-        }else if(op ==='-'){
-            result -= n2;
-        } else if(op ==='*'){
-            result *= n2;
-        } else if(op ==='/'){
-            result /= n2;
-        } else {
-            result = "올바른 연산자가 아닙니다."
-        }
-        return result;
+// 계산 담당 객체
+var calculate = {};
+calculate.calculate = function (result, op, n2) {
+    if(op ==='+'){
+        result += n2;
+    }else if(op ==='-'){
+        result -= n2;
+    }else if(op ==='*'){
+        result *= n2;
+    }else if(op ==='/'){
+        result /= n2;
+    }else {
+        alert('올바른 수식이 아닙니다.')
+    }
+
+    return result
+
+
 };
 
-// `=` 버튼의 핸들러 함수
-var showResult = function (event) {
+var showResult = function () {
     input.prepareCalculate();
-    console.log("array: ", input.array);
+    console.log("arr: " + input.array);
 
-    var result = input.getValue();
-    console.log("show: ", result);
+    // 첫번째 숫자
+    let result = input.getValue();
 
     while (!input.isEmpty()){
         op = input.getOperator();
         n2 = input.getValue();
-        result = calculator.calculate(result, op, n2);
-        console.log("show2: ", result, op, n2);
+        result = calculate.calculate(result, op, n2);
     }
-    output.print(result);
+    output.printResult(result);
     input.removeALl(result);
 };
